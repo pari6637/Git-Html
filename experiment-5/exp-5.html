@@ -3,14 +3,25 @@
     <title> Student Registration Form</title>
 </head>
 <body>
-    <h2>Student Registration Form</h2>
+    <h1 style="text-align: center">Student Registration Form</h1>
+    <hr>
         <form method="post" action="submit.html">
+            <legend>  Personal Information </legend>
 <label for="fullname">Full Name:</label><br>
 <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
 
 
 <label for="email">Email:</label><br>
 <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+<label for="password"> Password:</label><br>
+<input type="password" id="password" placeholder="Enter your password" required> <br> <br>
+<label for="gender"> Gender:</label><br> 
+<input type="radio" name="male" id="male">
+<label for="male"> Male</label>
+<input type="radio" name="female" id="female">
+<label for="female"> Female</label>
+<input type="radio" name="others" id="others">
+<label for="others"> Others </label> <br> <br>
 
 
 <label for="age">Age:</label><br>
@@ -18,11 +29,19 @@
 
 
 <label for="course">Course:</label><br>
-<input type="text" id="course" name="course" placeholder="Enter your course name" required><br><br>
+<select name="course" required>
+<option value="btech"> Btech</option>
+<option value="BCA"> BCA</option>
+<option value="MCA"> MCA</option>
+<option value="MBA"> MBA</option>
+</select>
+<br> <br>
 
 
-<input type="submit" value="Register">
+<button type="submit now">Register now </button>
 </form>
+<hr>
+<p align="center"> &copy 2025 Rights Reserved &reg</p>
 
 
 </body>
