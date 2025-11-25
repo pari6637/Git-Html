@@ -1,0 +1,37 @@
+  
+h1{ text-align: center;}
+  /* 1. BLOCK */
+  .nav-block a {
+    display: block;
+    background: lightblue;
+    padding: 10px;
+    margin: 3px 0;
+    text-decoration: none;
+  }
+
+  /* 2. INLINE */
+  .nav-inline a {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none;
+    color: blue;
+  }
+.nav-inline-block a {
+    display: inline-block;
+    padding: 8px 12px;
+    background: lightgreen;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+
+  /* 4. FLOAT */
+  .nav-float a {
+    float: left;
+    padding: 8px 12px;
+    background: orange;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+
+  /* CLEAR */
+  .clear { clear: both; }
