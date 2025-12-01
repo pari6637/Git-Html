@@ -13,7 +13,7 @@ body {
     align-self: center;
     background-color: white;
     width: 300px;
-    margin:0auto;
+    margin:0 auto;
     padding:15px;
     border: 2px solid greenyellow;
     border-radius: 8px;
