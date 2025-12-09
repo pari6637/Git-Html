@@ -1,11 +1,11 @@
   
-/* General styling */
+
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
 
-/* Block Example */
+
 .block-menu a {
   display: block;
   background-color:purple;
@@ -15,7 +15,7 @@ body {
   text-decoration: none;
 }
 
-/* Inline Example */
+
 .inline-menu a {
   display: inline;
   background-color: lavender;
@@ -25,7 +25,7 @@ body {
   text-decoration: none;
 }
 
-/* Inline-Block Example */
+
 .inline-block-menu a {
   display: inline-block;
   background-color: red;
@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 
-/* Float Example */
+
 .float-menu a {
   float: right;
   background-color: orange;
